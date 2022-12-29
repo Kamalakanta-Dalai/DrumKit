@@ -30,7 +30,7 @@ document.addEventListener("keypress", function (event) {
 function makeSound(key) {
   switch (key) {
     case "w":
-      var audio = new Audio("tom-1.mp3");
+      var audio = new Audio("kick-bass.mp3");
       audio.play();
 
       break;
@@ -60,7 +60,7 @@ function makeSound(key) {
 
       break;
     case "l":
-      var audio = new Audio("kick-bass.mp3");
+      var audio = new Audio("tom-1.mp3");
       audio.play();
 
       break;
